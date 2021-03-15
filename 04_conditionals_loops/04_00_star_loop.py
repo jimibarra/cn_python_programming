@@ -11,3 +11,11 @@ For example if n is 3, you print:
 '''
 
 n = 5
+count = 1
+
+while count <= n:
+    print('*' * count)
+    count += 1
+
+
+

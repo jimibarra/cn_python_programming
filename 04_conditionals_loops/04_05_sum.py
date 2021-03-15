@@ -7,3 +7,12 @@ The output of your calculation should therefore look like this:
 
 The sum is: 5050
 '''
+
+start = int(input('Please enter starting number of sequence: '))
+end = int(input('Please enter ending number of sequence: '))
+sum = 0
+
+for x in range(start, end+1):
+    sum += x
+
+print(sum)

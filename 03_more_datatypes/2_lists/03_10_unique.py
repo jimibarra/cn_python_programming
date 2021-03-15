@@ -6,3 +6,15 @@ unique_list = [55, 'hi', 4, 13]
 
 
 '''
+
+list_ = [1, 2, 6, 55, 2, 'hi', 4, 6, 1, 13]
+my_set = set(list_)
+unique_list = []
+
+for item in my_set:
+    count = 0
+    count = list_.count(item)
+    if count == 1:
+        unique_list.append(item)
+
+print(unique_list)

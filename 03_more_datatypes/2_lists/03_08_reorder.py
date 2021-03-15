@@ -7,3 +7,20 @@ Example input:  1,2,3,4,5,6,7,8,9,10
 Example output: 2,4,6,8,10,9,7,5,3,1
 
 '''
+#Build the list
+my_list = []
+
+for x in range(10):
+    num = int(input("Please enter a number: "))
+    my_list.append(num)
+
+#Print even positions in order
+for even in range(2,11,2):
+    print(my_list[even-1])
+
+#Print odd positions in reverse order
+my_list.reverse()
+for even in range(2,11,2):
+    print(my_list[even-1])
+
+
