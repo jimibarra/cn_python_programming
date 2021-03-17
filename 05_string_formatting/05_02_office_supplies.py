@@ -25,3 +25,21 @@ office = [
     {"full_name": "Creed Bratton", "item": "mung beans"},
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
+for dict in office:
+    item = dict["item"]
+    fullname = dict["full_name"]
+    name_list = []
+    name_list = fullname.split(" ")
+    spaces = 25 - len(fullname)
+    print(f'{name_list[1]}, {name_list[0]}', end="")
+    print(f'{" " * spaces}',end="")
+    print(f'{item: >30}')
+    
+
+
+
+
+
+
+
+
