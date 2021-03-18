@@ -34,7 +34,7 @@ for dict in office:
     print(f'{name_list[1]}, {name_list[0]}', end="")
     print(f'{" " * spaces}',end="")
     print(f'{item: >30}')
-    
+
 
 
 
