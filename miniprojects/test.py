@@ -1,7 +1,8 @@
-fin = open('/home/ubuntu/input.txt' , 'r')
-lines = fin.readlines()
-print(lines)
-fin.close()
+raise Exception(1, 'Test Message', 2, 'New Message')
+
+
+
+
 
 
 

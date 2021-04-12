@@ -23,3 +23,20 @@ BONUS CHALLENGE: write a custom Exception that inherits from Exception and raise
 first 100 characters of any of the files contain the string "Prince".
 
 '''
+
+'''Open war_and_peace.txt, read the whole file content and store it in a variable.'''
+with open('books/war_and_peace.txt', 'r') as fin:
+    content = fin.read()
+    line_count = content.count('\n')
+    print(f'War and Peace has {line_count} lines')
+
+'''Open crime_and_punishment.txt and overwrite the whole content with an empty string'''
+with open('books/crime_and_punishment.txt', 'w') as fout:
+    fout.write("")
+with open('books/crime_and_punishment.txt', 'r') as fin:
+    content = fin.read()
+    line_count = content.count('\n')
+    print(f'Crime and Punishment has {line_count} lines')
+
+
+

@@ -8,3 +8,21 @@ the script should handle:
 Test it and make sure it does not crash when you enter incorrect values.
 
 '''
+
+try:
+    x = int(input('Please enter dividend: '))
+    y = int(input('Please enter divisor: '))
+    print(f'The quotient is: {x / y}')
+except ZeroDivisionError:
+    print('Please enter a nonzero divisor.')
+except ValueError:
+    print('Please enter a number, not a word or letter.')
+else:
+    print("Successfully performed the division.")
+finally:
+    print('This is the end of this round.')
+
+
+
+
+
