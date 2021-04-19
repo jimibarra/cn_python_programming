@@ -9,4 +9,7 @@ In your CodingNomads folder create a new folder. Inside of that folder:
 6. Delete the virtual environment.
 7. Create a new virtual environment and install the packages from the requirements.txt file.
 
+Update - Refer to the testenv directory.  The packages were installed from a requirements.txt file
+from a previously created virtual environment.
+
 '''
