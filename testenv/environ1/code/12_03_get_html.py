@@ -14,3 +14,6 @@ import requests
 url = 'https://codingnomads.co'
 response = requests.get(url)
 print(response.text)
+
+
+
