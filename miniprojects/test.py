@@ -1,10 +1,6 @@
-import os
-
-path = os.environ['PATH']
-print(path)
-
-jimtest = os.environ['JIMTEST']
-print(jimtest)
+word = "CodingNomads"
+k = [i for i in word if i not in "aeiou"]
+print(k)
 
 
 
