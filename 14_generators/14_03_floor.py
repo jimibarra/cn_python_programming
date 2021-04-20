@@ -11,4 +11,3 @@ gen = (x for x in my_list if x % 1111 == 0)
 for item in gen:
     result = item // 1111
     print(result)
-    
